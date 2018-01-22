@@ -14,7 +14,7 @@ class App extends Component {
   componentDidMount() {
     var laptops = [];
     var phones = [];
-    fetch("https://www.galvanize-tower-back-end.herokuapp.com/laptops")
+    fetch("https://www.galvanize-tower-front-end.herokuapp.com/laptops")
       .then(response => response.json())
       .then(response => {
         console.log(response);
