@@ -1,6 +1,6 @@
 import React from "react";
 
-function PhoneForm1(props) {
+function CreatePhoneForm(props) {
   return (
     <form id="createPhone" onSubmit={props.phoneCreateSubmitHandler}>
       <h4>Create</h4>
@@ -29,4 +29,4 @@ function PhoneForm1(props) {
   );
 }
 
-export default PhoneForm1;
+export default CreatePhoneForm;

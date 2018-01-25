@@ -6,10 +6,10 @@ function Laptops(props) {
     <div className="topContainer">
       {props.data.map((item, index) => {
         return (
-          <div className="innerContainer" key={index}>
+          <div className="innerContainer">
             <div>
               <h3>ID#: {item.id}</h3>
-              <h2>{item.laptopName}</h2>
+              <h4>{item.laptopName}</h4>
             </div>
             <img src={item.laptopUrl} alt={item.laptopName} />
             <ul>

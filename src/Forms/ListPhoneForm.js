@@ -1,6 +1,6 @@
 import React from "react";
 
-function PhoneForm3(props) {
+function ListPhoneForm(props) {
   return (
     <form id="listPhone" onSubmit={props.phoneListSubmitHandler}>
       <h4>Show Single Phone</h4>
@@ -11,4 +11,4 @@ function PhoneForm3(props) {
   );
 }
 
-export default PhoneForm3;
+export default ListPhoneForm;

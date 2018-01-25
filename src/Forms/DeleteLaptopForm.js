@@ -1,6 +1,6 @@
 import React from "react";
 
-function LaptopForm4(props) {
+function DeleteLaptopForm(props) {
   return (
     <form id="deleteLaptop" onSubmit={props.laptopDeleteSubmitHandler}>
       <h4>Delete Laptop</h4>
@@ -11,4 +11,4 @@ function LaptopForm4(props) {
   );
 }
 
-export default LaptopForm4;
+export default DeleteLaptopForm;

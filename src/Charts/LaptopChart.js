@@ -36,7 +36,7 @@ function LaptopChart(props) {
   };
   return (
     <div className="chart">
-      <h2>Laptop Prices</h2>
+      <h2>Compare Laptop Prices</h2>
       <Bar
         data={data}
         width={100}

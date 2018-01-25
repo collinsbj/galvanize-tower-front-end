@@ -15,7 +15,7 @@ function Phones(props) {
           <div className="innerContainer" key={index}>
             <div>
               <h3>ID#: {item.id}</h3>
-              <h2>{item.phoneName}</h2>
+              <h4>{item.phoneName}</h4>
             </div>
             <img src={item.phoneUrl} alt={item.phoneName} />
             <ul>

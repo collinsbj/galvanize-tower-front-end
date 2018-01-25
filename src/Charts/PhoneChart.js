@@ -36,7 +36,7 @@ function PhoneChart(props) {
   };
   return (
     <div className="chart">
-      <h2>Phone Prices</h2>
+      <h2>Compare Phone Prices</h2>
       <Bar
         data={data}
         width={100}

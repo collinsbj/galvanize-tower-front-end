@@ -1,11 +1,9 @@
 import React from "react";
 
-function LaptopForm2(props) {
+function CreateLaptopForm(props) {
   return (
-    <form id="updateLaptop" onSubmit={props.laptopUpdateSubmitHandler}>
-      <h4>Update</h4>
-      <label>ID#:</label>
-      <input placeholder="eg. 3" id="laptopUpdateId" name="laptopId" />
+    <form id="createLaptop" onSubmit={props.laptopCreateSubmitHandler}>
+      <h4>Create</h4>
       <label>Name:</label>
       <input placeholder="eg. Apple MacBook Pro" name="laptopName" />
       <label>Price (in dollars):</label>
@@ -39,4 +37,4 @@ function LaptopForm2(props) {
   );
 }
 
-export default LaptopForm2;
+export default CreateLaptopForm;

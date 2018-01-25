@@ -1,6 +1,6 @@
 import React from "react";
 
-function PhoneForm4(props) {
+function DeletePhoneForm(props) {
   return (
     <form id="deletePhone" onSubmit={props.phoneDeleteSubmitHandler}>
       <h4>Delete Phone</h4>
@@ -11,4 +11,4 @@ function PhoneForm4(props) {
   );
 }
 
-export default PhoneForm4;
+export default DeletePhoneForm;

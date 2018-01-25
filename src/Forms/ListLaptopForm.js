@@ -1,6 +1,6 @@
 import React from "react";
 
-function LaptopForm3(props) {
+function ListLaptopForm(props) {
   return (
     <form id="listLaptop" onSubmit={props.laptopListSubmitHandler}>
       <h4>Show Single Laptop</h4>
@@ -11,4 +11,4 @@ function LaptopForm3(props) {
   );
 }
 
-export default LaptopForm3;
+export default ListLaptopForm;

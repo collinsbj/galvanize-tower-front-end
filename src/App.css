@@ -1,34 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin: 3rem;
 }
 
 img {
@@ -46,13 +18,34 @@ img {
   flex-wrap: wrap;
 }
 
+.subHead {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  color: blue;
+  font-size: 3rem;
+}
+
 h3 {
   font-style: italic;
   color: blue;
+  margin: 1rem;
 }
 
 ul {
   list-style: none;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
 }
 
 form {
@@ -85,6 +78,7 @@ button {
   transition: 0.3s ease-out;
   vertical-align: middle;
   margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 button:hover {

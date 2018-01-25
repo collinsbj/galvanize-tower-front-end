@@ -1,6 +1,6 @@
 import React from "react";
 
-function PhoneForm2(props) {
+function UpdatePhoneForm(props) {
   return (
     <form id="updatePhone" onSubmit={props.phoneUpdateSubmitHandler}>
       <h4>Update</h4>
@@ -31,4 +31,4 @@ function PhoneForm2(props) {
   );
 }
 
-export default PhoneForm2;
+export default UpdatePhoneForm;
