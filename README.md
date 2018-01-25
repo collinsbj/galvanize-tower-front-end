@@ -11,4 +11,4 @@ In this project, you'll build a full-stack application that has an API, reads an
   * Uses some non-trivial (charting, mapping, payment, etc.) library
   * Has at least 2 end-to-end tests
 
-Add a link to your [deployed front-end URL](https://galvanize-tower-front-end.herokuapp.com/), your [deployed API URL](https://galvanize-tower-back-end.herokuapp.com/), and any code repos you used[1](https://github.com/collinsbj/galvanize-tower-front-end)[2](https://github.com/collinsbj/galvanize-tower-back-end).
+Add a link to your [deployed front-end URL](https://galvanize-tower-front-end.herokuapp.com/), your [deployed API URL](https://galvanize-tower-back-end.herokuapp.com/), and any code repos you used: [Back end repo](https://github.com/collinsbj/galvanize-tower-back-end) and [React-Chartjs](https://github.com/jerairrest/react-chartjs-2).
