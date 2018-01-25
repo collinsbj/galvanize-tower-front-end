@@ -1,17 +1,23 @@
 import React from "react";
 
-function Laptops(props) {
+function Phones(props) {
   console.log(props.data);
   return (
     <div className="topContainer">
       {props.data.map((item, index) => {
+        var processor;
+        if (item.processorSpeed === 0) {
+          processor = "Unknown";
+        } else {
+          processor = item.processorSpeed + "GHz";
+        }
         return (
           <div className="innerContainer" key={index}>
             <div>
               <h3>ID#: {item.id}</h3>
-              <h2>{item.laptopName}</h2>
+              <h2>{item.phoneName}</h2>
             </div>
-            <img src={item.laptopUrl} alt={item.laptopName} />
+            <img src={item.phoneUrl} alt={item.phoneName} />
             <ul>
               <li>${item.price}</li>
               <li>Screen Size: {item.screenSize} inches</li>
@@ -19,18 +25,10 @@ function Laptops(props) {
                 Screen Resolution: {item.resolutionWidth} x{" "}
                 {item.resolutionHeight} pixels
               </li>
-              <li>Processor Speed: {item.processorSpeed}GHz</li>
-              <li>
-                Storage: {item.storageAmount}
-                {item.storageUnit}
-              </li>
-              <li>
-                Memory: {item.memoryAmount}GB {item.memoryType}
-              </li>
+              <li>Processor Speed: {processor}</li>
+              <li>Storage: {item.storageAmount}GB</li>
               <li>Battery Life: {item.battery} hours</li>
-              <li>
-                Weight: {item.weightAmount} {item.weightUnit}
-              </li>
+              <li>Weight: {item.weightAmount}oz</li>
             </ul>
           </div>
         );
@@ -39,4 +37,4 @@ function Laptops(props) {
   );
 }
 
-export default Laptops;
+export default Phones;
